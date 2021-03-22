@@ -72,8 +72,8 @@ subrow = 1;
 %% Plot all PTCs
 
 r_th = 0.5; %threshold for r-squared of fits before or after, a measure of rhythmicity robusteness
-per_low = 22; %lower period length limit (in hours)
-per_high = 29; %upper period length limit (in hours)
+per_low = 22.5; %lower period length limit (in hours)
+per_high = 28.5; %upper period length limit (in hours)
 
 figure;
 for i = 1:length(PATH)
